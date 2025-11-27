@@ -1,85 +1,86 @@
-📂 File Organizer 2.0
+📂 File Organizer
 
-A simple PySide6 desktop tool that automatically organizes files in a folder based on their file sizes (Small, Medium, Large).
-Made to keep your messy directories under control because you clearly weren’t doing it yourself.
-
-Still a work in progress, but already fully usable — clean UI, smooth behavior, and runs without freezing thanks to threading.
+A desktop application built with PySide6 that automatically organizes files in a folder based on their file sizes.
+Keep your directories tidy and your workflow efficient.
 
 ✨ Features
 
-📁 Automatic Sorting — organizes files into Small / Medium / Large folders
-🗃️ Recursive Mode — option to include subfolders
-🖥️ Modern UI — built with PySide6, clean and centered layout
-📊 Progress Bar — shows real-time progress while files move
+📁 Automatic Sorting — organizes files into Small, Medium, Large folders
+
+🗃️ Recursive Mode — optionally include subfolders
+
+🖥️ Clean UI — modern, responsive, and intuitive layout
+
+📊 Progress Bar — displays real-time progress during organization
+
 ⚠️ Safety Checks — prevents organizing system folders or protected paths
-🔧 Easy to Modify — clear code structure, customizable thresholds
+
+🔧 Customizable — modify file size thresholds easily
 
 🚀 How to Run
 1️⃣ Prerequisites
 
-Make sure you have Python 3.10+ installed.
-
-Check with:
+Make sure Python 3.10+ is installed:
 
 python --version
 
 
-If you don’t have it, get it from python.org.
+Install PySide6:
 
-2️⃣ Install Dependencies
 pip install PySide6
 
-3️⃣ Run the Program
+2️⃣ Running the App
 
-Navigate to your project folder and run:
+Navigate to the project folder and execute:
 
-python File_Organizer.py
+python main.py
 
 🗂️ How It Works
 
-The app scans the selected folder (and optionally its subfolders).
-Each file gets measured and moved into one of these:
+The app scans the selected folder and sorts files based on size:
 
-Small (under 10 MB)
+Small: under 10 MB
 
-Medium (10–200 MB)
+Medium: 10–200 MB
 
-Large (200 MB+)
+Large: over 200 MB
 
-Resulting structure example:
+Example folder structure after organizing:
 
 MyFolder/
  ├── Small/
  ├── Medium/
  ├── Large/
- ├── yourfile.txt
+ ├── example.txt
  ├── video.mp4
  └── image.png
 
 🧭 Planned Improvements
 
-📝 Log window showing moved files
+📝 Log window displaying moved files
+
 🖱 Drag & drop folder selection
+
 🔙 Undo last operation
-📦 Custom sorting modes (by type, by date, etc.)
-⚡ Faster scanning & batching
+
+📦 Additional sorting options (by type, date, etc.)
+
+⚡ Performance optimization for large directories
 
 🧰 Tech Stack
 
-Python 3
+Python 3.10+
 
 PySide6
 
 OS & shutil modules
 
-QThread for background tasks
+QThread for background processing
 
 ⚖️ License
 
-Released under MIT License — feel free to use or modify it.
-Just credit ItsAdda.
+Released under the MIT License — free to use, modify, and distribute with proper credit.
 
 ✨ Author
 
-ItsAdda — student & aspiring Python developer.
-Learning by building real, useful tools.
+ItsAdda — Student & aspiring Python developer. Building practical tools to learn and improve.
