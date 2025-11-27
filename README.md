@@ -50,6 +50,8 @@ Open your terminal or command prompt in the project folder:
 python File_Organizer.py
 ````
 
+---
+
 ## 🗺️ Planned Additions
 
 * 📝 **Log window** — displays moved files in real time
@@ -65,6 +67,8 @@ python File_Organizer.py
 * 🎨 **Custom themes** — dark mode and color customization
 
 * 📊 **Detailed progress analytics** — show files per category
+
+---
 
 ## 📸 Screenshots
 
