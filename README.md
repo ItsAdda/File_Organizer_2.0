@@ -1,86 +1,100 @@
-📂 File Organizer
+# 📂 File Organizer 2.0
 
-A desktop application built with PySide6 that automatically organizes files in a folder based on their file sizes.
-Keep your directories tidy and your workflow efficient.
+A **desktop application** built in **Python (PySide6)** to automatically organize files in a folder 💻  
+Keep your directories tidy and workflow efficient.  
+Still a **work in progress**, but it’s functional and includes a **progress bar** for tracking!  
 
-✨ Features
+---
 
-📁 Automatic Sorting — organizes files into Small, Medium, Large folders
+## 🎮 Features
 
-🗃️ Recursive Mode — optionally include subfolders
+- 📁 **Automatic Sorting** — files are organized into **Small**, **Medium**, **Large** folders  
+- 🗃️ **Recursive Mode** — optionally include subfolders  
+- 🖥️ **Clean UI** — modern, intuitive layout with large fonts  
+- 📊 **Progress Bar** — shows real-time progress while organizing  
+- ⚠️ **Safety Checks** — prevents organizing system folders or protected paths  
+- 🔧 **Customizable** — modify file size thresholds easily  
 
-🖥️ Clean UI — modern, responsive, and intuitive layout
+---
 
-📊 Progress Bar — displays real-time progress during organization
+## 🚀 How to Run
 
-⚠️ Safety Checks — prevents organizing system folders or protected paths
+### 1️⃣ Prerequisites
 
-🔧 Customizable — modify file size thresholds easily
+Make sure you have **Python 3.10+** installed.  
 
-🚀 How to Run
-1️⃣ Prerequisites
+You can check with:
 
-Make sure Python 3.10+ is installed:
-
+```bash
 python --version
+````
 
+If not installed, grab it from [python.org](https://www.python.org/downloads/)
+
+---
+
+### 2️⃣ Install Dependencies
 
 Install PySide6:
-
+```bash
 pip install PySide6
+````
 
-2️⃣ Running the App
+---
 
-Navigate to the project folder and execute:
+### 3️⃣ Run the App
 
-python main.py
+Open your terminal or command prompt in the project folder:
 
-🗂️ How It Works
+```bash
+python File_Organizer.py
+````
 
-The app scans the selected folder and sorts files based on size:
+## 🗺️ Planned Additions
 
-Small: under 10 MB
+* 📝 **Log window** — displays moved files in real time
 
-Medium: 10–200 MB
+* 🖱 **Drag & drop folder selection** — choose folders easily
 
-Large: over 200 MB
+* 🔙 **Undo last operation** — revert accidental changes
 
-Example folder structure after organizing:
+* 📦 **Additional sorting options** — sort by type, date, or extension
 
-MyFolder/
- ├── Small/
- ├── Medium/
- ├── Large/
- ├── example.txt
- ├── video.mp4
- └── image.png
+* ⚡ **Performance optimization** — handle large directories efficiently
 
-🧭 Planned Improvements
+* 🎨 **Custom themes** — dark mode and color customization
 
-📝 Log window displaying moved files
+* 📊 **Detailed progress analytics** — show files per category
 
-🖱 Drag & drop folder selection
+## 📸 Screenshots
 
-🔙 Undo last operation
+<img width="1918" height="1030" alt="image" src="https://github.com/user-attachments/assets/f1ac9c83-df33-48b1-82e4-3bd95be23075" />
 
-📦 Additional sorting options (by type, date, etc.)
 
-⚡ Performance optimization for large directories
+---
 
-🧰 Tech Stack
+## 🧰 Tech Stack
 
-Python 3.10+
+* **Python 3.10+**
 
-PySide6
+* **PySide6**
 
-OS & shutil modules
+* **Qt Designer** for UI design
 
-QThread for background processing
+* **PyCharm** for development
 
-⚖️ License
+---
 
-Released under the MIT License — free to use, modify, and distribute with proper credit.
+## ⚖️ License
 
-✨ Author
+Released under the [MIT License](LICENSE)
 
-ItsAdda — Student & aspiring Python developer. Building practical tools to learn and improve.
+Feel free to use or modify it — just credit ItsAdda.
+
+---
+
+## ✨ Author
+
+**ItsAdda** — Student & aspiring Python developer.
+Learning by building real, useful tools.
+
